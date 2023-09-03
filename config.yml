@@ -73,8 +73,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "🐶 Awwwooooooo, welcome!"
-    Content: Hi, this is Diao. I’m documenting my learning notes in this blog. Besides, I’m the co-founder of ATechDog's NonProfit Research Program (www.atechdog.com/nonprofit-research-programs).
+    Title: "🐶 Welcome!"
+    Content: Hi, this is Diao. I’m documenting my learning notes in this blog. Besides, I lead NonProfit Research Programs at ATechDog.
 
   socialIcons:
     - name: twitter
