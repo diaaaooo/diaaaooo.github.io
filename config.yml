@@ -1,5 +1,5 @@
 baseURL: "http://diaaaooo.github.io/"
-title: Blog
+title: Diaaaooo's Blog
 paginate: 5
 theme: PaperMod
 
@@ -16,9 +16,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Blog
-  description: "Blog description"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: Diaaaooo's
+  description: "Diaaaooo's description"
+  keywords: [Diaaaooo's, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -52,14 +52,14 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Diaaaooo"
+    text: "Diaaaooo's"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: Blog
+    title: Diaaaooo's
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -74,7 +74,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "🐶 Welcome!"
-    Content: Hi, this is Diao. I’m documenting my learning notes in this blog. Besides, I lead NonProfit Research Programs at ATechDog.
+    Content: Hi, this is Diao. I’m documenting my learning notes in this Diaaaooo's. Besides, I lead NonProfit Research Programs at ATechDog.
 
   socialIcons:
     - name: twitter
