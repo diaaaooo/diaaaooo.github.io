@@ -75,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "🐶 Welcome!"
-    Content: Hi, this is Diao. I'm documenting my learning notes in this blog. Besides, I'm the co-founder of the NonProfit Research Programs at ATechDog.
+    Content: Hi, this is Diao. I'm documenting my learning notes in this blog. I'm also the co-founder of the NonProfit Research Programs at ATechDog.
 
   socialIcons:
     - name: github
