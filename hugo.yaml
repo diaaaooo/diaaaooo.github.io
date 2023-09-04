@@ -20,7 +20,7 @@ params:
   title: Diaaaooo's
   description: "Diaaaooo's description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Diao
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -40,7 +40,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -113,17 +113,17 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: posts
+      name: Posts
+      url: /posts/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: archives
+      name: Archives
+      url: /archives/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: tags
+      name: Tags
+      url: /tags/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
