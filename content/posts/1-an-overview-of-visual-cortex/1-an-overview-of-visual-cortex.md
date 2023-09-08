@@ -61,7 +61,7 @@ Ventral stream is the “what pathway” located in the occipital lobe. It is th
 ### Dorsal Stream
 Dorsal stream is the “where pathway” located in the parietal lobe which is adjacent to the occipital lobe. It is the pathway for spatial perception and motor control. It is so crucial to object detection and recognition, especially in spatial perception, that we cannot ignore it while trying to understand how the visual cortex works. 
 
-[image]
+{{< figure src="/posts/1-an-overview-of-visual-cortex/fig-ventra-stream-and-dorsal-stream.png" alt="Illustration of the two pathways: ventral stream and dorsal stream." caption="Fig. 1. Illustration of the two pathways: ventral stream and dorsal stream. (Image source: By Selket - I (Selket) made this from File:Gray728.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1679336.)" align="center" >}}
 
 ## Relevant Ventral Stream Components
 
@@ -94,9 +94,11 @@ Visual input accepted by retina flows into V1. V1 extracts low-level information
 
 [This](https://www.pnas.org/doi/10.1073/pnas.0700622104) biological science paper presented the feedforward linear architecture which looks very similar to a convolutional neural network. The paper also explained why such architecture is supported even though there are local feedback loops and general feedback loops across the entire ventral stream. 
 
-[Image]
+{{< figure src="/posts/1-an-overview-of-visual-cortex/fig-feedforward-linear-architecture-of-the-human-visual-system.png" alt="Illustration of the feedforward linear architecture of the human visual cortex system." caption="Fig. 2. Illustration of the feedforward linear architecture of the human visual cortex system. (Image source: [Serre et al. 2007](https://www.pnas.org/doi/10.1073/pnas.0700622104))" align="center" >}}
 
 The ML field also accepted such a belief. [This](https://arxiv.org/abs/1702.07800) review paper of deep learning models submitted in 2017 proposed one version of explanation. It has become very popular since the citation in [this](https://lilianweng.github.io/posts/2017-06-21-overview/) deep learning overview post published in [Lilian Weng’s blog](https://lilianweng.github.io/). The breakthrough design in Residual Net (ResNet) which allows inputs from one layer to be passed down to two layers after is also associated with the shortcut between V1 and V4. V4 was found to be able to accept information directly from V1. 
+
+{{< figure src="/posts/1-an-overview-of-visual-cortex/fig-visual-cortex-connection-with-cnn.png" alt="Illustration of the human visual cortex system." caption="Fig. 2. Illustration of the human visual cortex system. (Image source: [Wang et al. 2017](https://arxiv.org/abs/1702.07800))" align="center" >}}
 
 It offers a very elegant explanation of how CNN and visual cortex are connected and it could certainly be how convolutional neural networks were inspired. But I felt obligated to also look into different opinions and see if the continuous research in the visual cortex field has moved forward and brought up new ideas. It does. 
 
@@ -107,6 +109,10 @@ It offers a very elegant explanation of how CNN and visual cortex are connected 
 V1 actually sends out processed information to V2, V3, V4 and MT (a component related to memory processing) simultaneously. All other components continuously send feedback back to help correct the processing. The entire visual information flow is a continuous loop with multiple complex loops inside it. All of these contribute to correct object detection and recognition. 
 
 It can also explain why YOLO is not good at detecting small objects in local regions to a certain extent. Because YOLO lacks components like V3 that handles basic spatial information processes and keeps correcting the main processing stream. This is just my guess though. To investigate the real causes and solutions, I would need to learn more about how human’s visual system extracts depth information solely from visual inputs and how it can be implemented in ML. 
+
+## Citation
+Cited as:
+>Diao, He. (Sep 2023). "An Overview of Visual Cortex." Diaaaooo's Post:https://diaaaooo.github.io/posts/1-an-overview-of-visual-cortex/.
 
 ## References
 
