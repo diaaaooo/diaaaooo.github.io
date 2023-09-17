@@ -24,9 +24,9 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-menu:
-  main:
-    identifier: "posts"
+# menu:
+#   main:
+#     identifier: "posts"
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
