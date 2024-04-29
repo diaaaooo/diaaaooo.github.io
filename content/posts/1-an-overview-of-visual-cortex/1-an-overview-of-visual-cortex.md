@@ -107,10 +107,6 @@ V1 actually sends out processed information to V2, V3, V4 and MT (a component re
 
 It can also explain why YOLO is not good at detecting small objects in local regions to a certain extent. Because YOLO lacks components like V3 that handles basic spatial information processes and keeps correcting the main processing stream. This is just my guess though. To investigate the real causes and solutions, I would need to learn more about how human’s visual system extracts depth information solely from visual inputs and how it can be implemented in ML. 
 
-## Citation
-Cited as:
->Diao, He. (Sep 2023). "An Overview of Visual Cortex." Diaaaooo's Post:https://diaaaooo.github.io/posts/1-an-overview-of-visual-cortex/.
-
 ## References
 
 [1] Ungerleider et al. “[Two Cortical Visual Systems.](https://www.cns.nyu.edu/~tony/vns/readings/ungerleider-mishkin-1982.pdf)" NYU (1982)
