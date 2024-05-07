@@ -41,6 +41,30 @@ cover:
 
 I've heared many different views and opinions and learn more and more ways to look at geographic data through my professional years, and thought to note them down here before my brain decides to forget about them. 
 
+## City, County, State, Region
+These type of data are the most commonly used representation for geographic information. 
+
+### Characteristics
+- They have clear boundaries, usually political boudaries.
+- They do not change frequently.
+- Their boundaries and definitions are shared across fields.
+
+### Usage
+- **Urban-Rural Differentiation**: While it may be challenging to distinguish between urban and rural areas solely based on administrative boundaries, supplementary data layers such as population density, land use classification, or infrastructure maps can provide insights into urbanization levels.
+- **Spatial Hierarchy**: These administrative units form a hierarchical structure (e.g., city within a county within a state), enabling multi-level spatial analysis that considers both local and regional factors.
+- **Influence on Analysis**: Major cities can significantly impact aggregated demographic and economic analyses, necessitating careful consideration or adjustment when extrapolating findings to broader regions.
+
+### Pros
+1. **Clear Boundaries**: Well-defined administrative boundaries facilitate spatial analysis and comparisons.
+2. **Stability**: These units do not change frequently, providing consistency for long-term analyses.
+3. **Hierarchical Analysis**: Allows for multi-level analysis considering local, regional, and state-level factors.
+
+### Cons
+1. **Urban-Rural Differentiation**: May struggle to distinguish between urban and rural areas accurately.
+2. **Influence of Major Cities**: Larger cities can skew aggregated data, impacting broader regional analyses.
+3. **Limited Granularity**: Less detailed than smaller units like census tracts for localized analyses.
+
+
 ## Zip Codes
 Zip codes are groups of lines (delivery routes) and points (PO Boxes) developed by USPS for the purpose of easy delivery. 
 
@@ -65,31 +89,6 @@ Zip codes are groups of lines (delivery routes) and points (PO Boxes) developed 
 1. **Lack of Boundaries**: Zip codes do not have clear boundaries, making them unsuitable for precise area representation.
 2. **Temporal Instability**: Subject to frequent changes, impacting historical or time-series analyses.
 3. **Limited Demographic Insights**: Not ideal for detailed demographic or economic analysis due to their lack of area representation.
-
-
-## City, County, State, Region
-These type of data are the most commonly used representation for geographic information. 
-
-### Characteristics
-- They have clear boundaries, usually political boudaries.
-- They do not change frequently.
-- Their boundaries and definitions are shared across fields.
-
-### Usage
-- **Urban-Rural Differentiation**: While it may be challenging to distinguish between urban and rural areas solely based on administrative boundaries, supplementary data layers such as population density, land use classification, or infrastructure maps can provide insights into urbanization levels.
-- **Spatial Hierarchy**: These administrative units form a hierarchical structure (e.g., city within a county within a state), enabling multi-level spatial analysis that considers both local and regional factors.
-- **Influence on Analysis**: Major cities can significantly impact aggregated demographic and economic analyses, necessitating careful consideration or adjustment when extrapolating findings to broader regions.
-
-### Pros
-1. **Clear Boundaries**: Well-defined administrative boundaries facilitate spatial analysis and comparisons.
-2. **Stability**: These units do not change frequently, providing consistency for long-term analyses.
-3. **Hierarchical Analysis**: Allows for multi-level analysis considering local, regional, and state-level factors.
-
-### Cons
-1. **Urban-Rural Differentiation**: May struggle to distinguish between urban and rural areas accurately.
-2. **Influence of Major Cities**: Larger cities can skew aggregated data, impacting broader regional analyses.
-3. **Limited Granularity**: Less detailed than smaller units like census tracts for localized analyses.
-
 
 ## Census Tracts
 Census tracts are specially designed geographic regions for the purpose of taking census. 
