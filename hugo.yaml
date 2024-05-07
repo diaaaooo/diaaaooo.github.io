@@ -74,8 +74,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "🐶 Welcome!"
-    Content: Hi, welcome to this old-fashioned blog. I am using it as a notebook to record things I learned and things interest me in an unorganized and unstructured manner, simply because I don't have a good memory system. 
+    Title: "Hi, welcome! 🐶"
+    Content: This is an old-fashioned blog run by a quiet and often boring brain.
 
   socialIcons:
     - name: github
