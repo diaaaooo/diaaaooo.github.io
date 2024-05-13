@@ -1,5 +1,5 @@
 ---
-title: "Thoughts on Geographic Data: ZIP Codes vs. Census Tracts"
+title: "Thoughts on Geographic Data - Part 1"
 date: 2024-05-07T00:00:00+00:00
 # weight: 1
 # aliases: ["/first"]
@@ -39,9 +39,9 @@ cover:
 #     appendFilePath: true # to append file path to Edit link
 ---
 
-Do you care about lines and points or polygons? 
+Do you care about lines and points or polygons? ZIP Codes vs. Census Tracts for analysis, when to use which? 
 
-Lines and points, go with ZIP Codes. Polygons, try something else.
+Some thoughts on answering the above questions...
 
 ## ZIP Codes
 ZIP Codes are 5-digit numbers developed by USPS to represent individual post offices across the US. The term "ZIP" in ZIP Code stands for "Zone Improvement Plan."
