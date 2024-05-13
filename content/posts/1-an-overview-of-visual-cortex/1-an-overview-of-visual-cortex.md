@@ -36,9 +36,9 @@ cover:
 #     appendFilePath: true # to append file path to Edit link
 ---
 
-I like to dig deep into the origin to learn how one thing evolved to its current state when I learn something new. To learn about computer vision, one has to understand Convolutional Neural Network, short for “CNN”. And to fully understand convolutional neural networks, we have to look back to its origin - Visual Cortex. 
+To to fully understand convolutional neural networks, we have to look back to its origin - Visual Cortex. 
 
-I am not an expert of the structure of human eyes or how the visual system works. But I will try my best to explain what I learned about the human visual cortex from reading papers and how it is connected to the structure of convolutional neural networks. 
+Some notes on what I learned about the human visual cortex from reading papers and how it is connected to the structure of convolutional neural networks. 
 
 ## Basic Terminology 
 These are the unavoidable terms that you will see in a paper involving the visual cortex. 

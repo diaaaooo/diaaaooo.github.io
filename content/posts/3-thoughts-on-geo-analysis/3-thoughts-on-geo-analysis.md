@@ -39,7 +39,7 @@ cover:
 #     appendFilePath: true # to append file path to Edit link
 ---
 
-I've heared many different views and opinions and learn more and more ways to look at geographic data through my professional years, and thought to note them down here before my brain decides to forget about them. 
+Thoughts on some commonly used geographic data...
 
 ## City, County, State, Region
 These type of data are the most commonly used representation for geographic information. 
