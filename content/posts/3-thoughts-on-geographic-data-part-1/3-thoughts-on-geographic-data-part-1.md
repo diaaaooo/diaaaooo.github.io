@@ -51,7 +51,6 @@ USPS segmented the country into 10 (0-9) ZIP Code areas from the northeast to th
 - **Second and third digit**: sectional center or large city postal office, usually a county or city 
 - **Forth and fifth digit**: associate postal office or delivery area
 
-![zip_code_zones](zip_code_zones.png)
 {{< figure src="/posts/3-thoughts-on-geo-analysis/zip_code_zones.png" alt="ZIP Codes Zone Map" caption="Fig. 1. U.S. ZIP Codes Zone Map. (Image source: By Smarty, https://www.smarty.com/docs/zip-codes-101.)" align="center" >}}
 
 
