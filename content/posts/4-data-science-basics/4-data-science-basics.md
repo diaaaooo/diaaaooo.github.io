@@ -164,18 +164,18 @@ cover:
     - Uncertainty Window:
         - Quantile regression: 
         Quantile regression estimates the conditional median or other quantiles of the response variable. This can be used to directly predict the lower and upper bounds of the prediction interval.
-    - Boostrapping:
-        Bootstrapping involves repeatedly sampling from the training data with replacement and training a model on each sample to build a distribution of predictions.
-    - Bayesian Methods:
-        Bayesian approaches provide a probabilistic framework for model predictions, naturally incorporating uncertainty. Gaussian Process Regression (GPR) is one such method.
-    - Ensemble Methods:
-        Ensemble methods like Random Forests can also be used to estimate prediction intervals by leveraging the variability in predictions from different trees.
+        - Boostrapping:
+            Bootstrapping involves repeatedly sampling from the training data with replacement and training a model on each sample to build a distribution of predictions.
+        - Bayesian Methods:
+            Bayesian approaches provide a probabilistic framework for model predictions, naturally incorporating uncertainty. Gaussian Process Regression (GPR) is one such method.
+        - Ensemble Methods:
+            Ensemble methods like Random Forests can also be used to estimate prediction intervals by leveraging the variability in predictions from different trees.
 
 ### Explain prediction interval
 - Definition:
-A prediction interval provides a range within which future observations are expected to fall with a certain level of confidence. It accounts for both the variability in the data and the uncertainty in the prediction.
+    A prediction interval provides a range within which future observations are expected to fall with a certain level of confidence. It accounts for both the variability in the data and the uncertainty in the prediction.
 - Example:
-If you predict the price of a house to be 300k with a 95% prediction interval of [280k, 320k], you are 95% confident that the actual price will fall within this range.
+    If you predict the price of a house to be 300k with a 95% prediction interval of [280k, 320k], you are 95% confident that the actual price will fall within this range.
 - How to use it:
     - Point Estimate: The predicted value (e.g., the mean prediction from a model).
     - Variance: The variability in the prediction due to the randomness in the data and the model.
