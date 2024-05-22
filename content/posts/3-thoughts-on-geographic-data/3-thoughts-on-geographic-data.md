@@ -1,6 +1,6 @@
 ---
 title: "Thoughts on Geographic Data: ZIP Codes vs. Census Tracts"
-date: 2024-05-07T00:00:00+00:00
+date: 2024-02-07T00:00:00+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["Geographic Data"]
