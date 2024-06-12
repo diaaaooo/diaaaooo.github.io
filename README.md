@@ -17,3 +17,9 @@ Publish the site.
 ```
 - Merge to main branch
 ```
+
+## Casual update
+1. Just put down questions and quick thoughts
+2. Research on those questions and find the answers
+3. Complete the post and release it
+4. Ideally, weekly update at least
