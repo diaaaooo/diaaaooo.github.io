@@ -1,5 +1,5 @@
 baseURL: https://diaaaooo.github.io/
-title: Diaaaooo's
+title: Diaaaooo
 languageCode: en-us
 paginate: 5
 theme: PaperMod
@@ -17,8 +17,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Diaaaooo's
-  description: "Diaaaooo's description"
+  title: Diaaaooo
+  description: "Diaaaooo description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Diao
   # author: ["Me", "You"] # multiple authors
@@ -53,14 +53,14 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Diaaaooo's"
+    text: "Diaaaooo"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: Diaaaooo's
+    title: Diaaaooo
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -74,8 +74,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi, welcome! 🐶"
-    Content: This is an old-fashioned blog run by a quiet and often boring brain.
+    Title: "About"
+    Content: Just a personal notepad for random use...
 
   socialIcons:
     - name: github
