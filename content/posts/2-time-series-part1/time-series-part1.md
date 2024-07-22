@@ -8,7 +8,7 @@ author: 🐶
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 # description: "Desc Text."
@@ -24,6 +24,7 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+math: mathjax
 # menu:
 #   main:
 #     identifier: "posts"
@@ -75,7 +76,7 @@ When talking about **Autoregresstive** term, you are talking about lags (or **or
 
 Let's look at an example for **AR(1)**. 1 means the 1st order of autoregressive, which means take the value as lag of 1. 
 
-| Time (t) | Temperature Today (\(x_t\)) | Temperature Yesterday (\(x_{t-1}\)) |
+| Time (t) | Temperature Today (\\(x_t\\)) | Temperature Yesterday (\\(x_{t-1}\\)) |
 |----------|-----------------------------|-------------------------------------|
 | 1        | 15                          | 14                                  |
 | 2        | 14                          | 15                                  |
@@ -86,28 +87,30 @@ Let's look at an example for **AR(1)**. 1 means the 1st order of autoregressive,
 The **AR(1)** model states that today's temperature can be predicted using yesterday's temperature plus some random variation. 
 
 Theoretically, an **AR(1)** is written like this:
-\[ x_t = \alpha + \beta x_{t-1} + \epsilon_t \]
+$$
+\ x_t = \alpha + \beta x_{t-1} + \epsilon_t \
+$$
 where:
-- \( x_t \) is the temperature today.
-- \( \alpha \) is the constant or intercept or bias.
-- \( \beta \) is the slop or coefficient that determines the influence of yesterday's temperature.
-- \( \epsilon_t \) is the error term.
+- \\( x_t \\) is the temperature today.
+- \\( \alpha \\) is the constant or intercept or bias.
+- \\( \beta \\) is the slop or coefficient that determines the influence of yesterday's temperature.
+- \\( \epsilon_t \\) is the error term.
 
 AR(p) models have some assumptions:
-- The error term \( \epsilon_t \) assums that the errors are independtly distributed with a normal distribution that has mean 0 and constant variance. (Todo: add a residual plot as to show an example)
-- Errors are independent of observations \( x \). 
+- The error term \\( \epsilon_t \\) assums that the errors are independtly distributed with a normal distribution that has mean 0 and constant variance. (Todo: add a residual plot as to show an example)
+- Errors are independent of observations \\( x \\). 
 
-Back to the **AR(1)** example. Looking at the formula, you can see **AR(1)** actually represents a basic linear regression line. An AR model is basically a linear regression of time sereis \( x \) against past values. The only difference is:
-- Regression assumes \( x \) values are independent.
-- **AR(1)** accounts for the temporal dependence between \( x_t \) and \( x_{t-1} \).
+Back to the **AR(1)** example. Looking at the formula, you can see **AR(1)** actually represents a basic linear regression line. An AR model is basically a linear regression of time sereis \\( x \\) against past values. The only difference is:
+- Regression assumes \\( x \\) values are independent.
+- **AR(1)** accounts for the temporal dependence between \\( x_t \\) and \\( x_{t-1} \\).
 
 
 ## Moving Average (MA)
 When talking about **Moving Average**, you are talking about moving average on past errors/residuals.
 
-Let's look at an example of **MA(1)**. 1 means taking moving average against 1 past error. The errors are not the difference between observed values. They are calculated as \[ \epsilon_t = \mu + \theta \epsilon_{t-1} \].
+Let's look at an example of **MA(1)**. 1 means taking moving average against 1 past error. The errors are not the difference between observed values. They are calculated as \\[ \epsilon_t = \mu + \theta \epsilon_{t-1} \\].
 
-| Time (t) | Temperature Today (\(x_t\)) | Error Today (\(\epsilon_t\)) | Error Yesterday (\(\epsilon_{t-1}\)) |
+| Time (t) | Temperature Today (\\(x_t\\)) | Error Today (\\(\epsilon_t\\)) | Error Yesterday (\\(\epsilon_{t-1}\\)) |
 |----------|-----------------------------|------------------------------|-------------------------------------|
 | 1        | 15                          | 0                            | 0                                   |
 | 2        | 16                          | 1                            | 0                                   |
@@ -118,22 +121,25 @@ Let's look at an example of **MA(1)**. 1 means taking moving average against 1 p
 The **MA(1)** model states that today's value can be predicted using the mean of the series plus the random error term from today and the previous day's error term. 
 
 Theoratically, an **MA(1)** model is written as:
-\[ x_t = \mu + \epsilon_t + \theta \epsilon_{t-1} \]
+
+\\[ x_t = \mu + \epsilon_t + \theta \epsilon_{t-1} \\]
+
 where:
-- \( x_t \) is the value at time \( t \).
-- \( \mu \) is the mean of the series.
-- \( \epsilon_t \) is the error term at time \( t \).
-- \( \theta \) is a coefficient that determines the influence of the previous error term \( \epsilon_{t-1} \).
+- \\( x_t \\) is the value at time \\( t \\).
+- \\( \mu \\) is the mean of the series.
+- \\( \epsilon_t \\) is the error term at time \\( t \\).
+- \\( \theta \\) is a coefficient that determines the influence of the previous error term \\( \epsilon_{t-1} \\).
 
 And the formula for **MA(2)** is:
-\[ x_t = \mu + \epsilon_t + \theta_1 \epsilon_{t-1} + \theta_2 \epsilon_{t-2} \]
 
-In a way, **MA(q)** models can be seen as a linear regression of time sereis \( x_t \) against past error terms. In an **MA(q)** model, the current value of the time series is expressed as a linear combination of the mean, the current error term, and q previous error terms.
+\\[ x_t = \mu + \epsilon_t + \theta_1 \epsilon_{t-1} + \theta_2 \epsilon_{t-2} \\]
+
+In a way, **MA(q)** models can be seen as a linear regression of time sereis \\( x_t \\) against past error terms. In an **MA(q)** model, the current value of the time series is expressed as a linear combination of the mean, the current error term, and q previous error terms.
 
 ## Takeaway
 
-- **AR(p)** models can be seen as a linear regression of time series \( x_t \) against past values.
-- **MA(q)** models can be seen as a linear regression of time sereis \( x_t \) against past error terms where the intercept is \( \mu \) the mean of the series. 
+- **AR(p)** models can be seen as a linear regression of time series \\( x_t \\) against past values.
+- **MA(q)** models can be seen as a linear regression of time sereis \\( x_t \\) against past error terms where the intercept is \\( \mu \\) the mean of the series. 
 
 
 ## References
