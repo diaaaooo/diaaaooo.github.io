@@ -1,9 +1,9 @@
 ---
-title: "Post Template"
-date: 2020-01-01T00:00:00+00:00
+title: "Partial Dependence Plot and PDP-based Feature Importance"
+date: 2024-06-11T00:00:00+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["tag"]
+tags: ["Interpretable Machine Learning", "Partial Dependence Plot", "Feature Importance"]
 author: "🐶"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -38,3 +38,23 @@ cover:
 #     Text: "Suggest Changes" # edit text
 #     appendFilePath: true # to append file path to Edit link
 ---
+
+## Questions
+- How does the math work? Explain it with examples
+- PDP vs. feature-target plot during EDA, what's difference? Shouldn't EDA capture the relationship? Compare PDP plot and feature-target plot to see how well the model capture the relationship?
+- What calculation methods do popular libraries use?
+- Regression vs. Classification, numerical vs. categorical. How does it work?
+- PDP and PDP-based feature importance
+
+## A Little Bit History
+A little bit history on PDP...
+PDP plot is proposed in 2001, for what reason? for what use?
+PDP-based feature importance is proposed in 2017? 
+
+## Explain In Layman Terms
+How does it work without math...
+
+## Explain The Math
+How does the math work...
+
+## Reference
