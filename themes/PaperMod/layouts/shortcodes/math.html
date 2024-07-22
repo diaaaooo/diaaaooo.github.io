@@ -1,0 +1,5 @@
+{{ if (eq $.Page.Params.math "katexSsr") }}
+  {{ .Inner | markdownify }}
+{{ else }}
+  {{ .Inner }}
+{{ end }}
