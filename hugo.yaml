@@ -75,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "About"
-    Content: Just a personal notepad for random use...
+    Content: A dogged notebook... 🐶
 
   socialIcons:
     - name: github

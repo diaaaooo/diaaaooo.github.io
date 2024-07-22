@@ -1,6 +1,6 @@
 # diaaaooo.github.io
 
-This is an old-fashioned blog run by a quiet and often boring brain. 🐶
+A dogged notebook... 🐶
 
 
 ## How to
