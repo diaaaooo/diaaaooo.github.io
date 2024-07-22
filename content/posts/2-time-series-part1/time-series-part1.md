@@ -8,7 +8,7 @@ author: 🐶
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 # description: "Desc Text."
